@@ -1,18 +1,18 @@
 import { Buttom } from "./components/Buttom/Buttom";
 import "./App.scss";
 import { Header } from "./sections/header/Header";
+import { Hero } from "./sections/hero/Hero";
 
 function App() {
   return (
     <main className="App">
       <Header />
+      <Hero/>
 
       {/* 
 
-  Typemaster keyboard
 
-  Improve your productivity and gaming without breaking the bank. Upgrade to a high quality 
-  mechanical typing experience.
+ 
 
   Pre-order now
   Release on 5/27
