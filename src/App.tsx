@@ -2,24 +2,17 @@ import { Buttom } from "./components/Buttom/Buttom";
 import "./App.scss";
 import { Header } from "./sections/header/Header";
 import { Hero } from "./sections/hero/Hero";
+import { Middle } from "./sections/middle/Middle";
 
 function App() {
   return (
     <main className="App">
       <Header />
-      <Hero/>
-
+      <Hero />
+      <Middle />
       {/* 
 
 
- 
-
-  Pre-order now
-  Release on 5/27
-
-  Mechanical wireless keyboard
-  The Typemaster keyboard boasts top-notch build and practical design. It offers a wide variety 
-  of switches and keycaps, along with reliable wireless connectivity.
 
   Highly compatible
   Easy to use and works well with all major computer brands, gaming consoles and mobile devices. 
