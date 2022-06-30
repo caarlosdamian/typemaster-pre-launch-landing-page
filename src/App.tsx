@@ -1,13 +1,13 @@
 import { Buttom } from "./components/Buttom/Buttom";
-import './App.scss'
+import "./App.scss";
+import { Header } from "./sections/header/Header";
 
 function App() {
-  return <main className="App">  
-  
-  <Buttom/>
-  
-  
-  {/* Pre-order now
+  return (
+    <main className="App">
+      <Header />
+
+      {/* 
 
   Typemaster keyboard
 
@@ -36,7 +36,8 @@ function App() {
   RGB backlit modes
   Choose from 4 backlight brightness levels and adjustable breathing speed. Each key glows intensely in the dark and helps
   you type in low light conditions. */}
-</main>;
+    </main>
+  );
 }
 
 export default App;
