@@ -1,4 +1,4 @@
-@import './main.tsx';
+ @import './tokens.scss';
 
 * {
   font-family: 'Barlow', sans-serif;
@@ -9,4 +9,4 @@ body {
   padding: 0;
   box-sizing: border-box;
   background: $white;
-}
+} 

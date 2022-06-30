@@ -1,7 +1,6 @@
-import React from 'react'
+import { ButtomProps } from "../../interfaces";
+import "./Buttom.scss";
 
-export const Buttom = () => {
-  return (
-    <div>Buttom</div>
-  )
-}
+export const Buttom = ({ classd }: ButtomProps) => {
+  return <button className={`buttom ${classd}`}>Buttom</button>;
+};

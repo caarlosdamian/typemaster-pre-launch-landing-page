@@ -1,0 +1,34 @@
+@import '../../tokens.scss';
+
+.buttom {
+    border-radius: 8px;
+    padding: 16px;
+    border: none;
+    width: 175px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    &.primary {
+        color: $white;
+        background: $primary-orange;
+
+        &:hover {
+            background: $sencodary-organge;
+        }
+    }
+
+    &.secondary {
+        color: $primary-blue;
+        background: $gray;
+
+        &:hover {
+            background: $secondary-blue;
+            color: $white
+        }
+    }
+}
